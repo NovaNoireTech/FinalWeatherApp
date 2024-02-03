@@ -1,0 +1,55 @@
+* ::backdrop
+
+{
+    margin:auto;
+    width: 80%;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.centertext {
+    text-align: center;
+    font-size: xx-large;
+    
+    padding-bottom: 0%;
+  }
+
+.text {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#form {
+    text-align: center;
+    border-top: 40%;
+    font-size: xx-large;
+  
+}
+
+.CityText {
+    padding-bottom: 30%;
+    padding-top: 20%;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    position:center;
+    padding: 30%;
+    margin:auto;
+    width: 120%;
+    
+  }
+  
+  td {
+    height: 120px;
+    vertical-align:baseline;
+  }
+

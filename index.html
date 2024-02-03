@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "weatherapp.js" defer></script>
+</head>
+
+<body>
+    <div class="centertext">
+        <h1>The Weather App</h1>
+        <h2>
+          <img src='https://miro.medium.com/v2/resize:fit:1200/1*PRzj-xmFUFuojgHlJaj4QQ.gif' id='free weather gifs' height='700
+  px'>
+        </h2>
+      </div>
+    <form id="form">
+        <input id="city" type="text" placeholder="Type City Here">
+        <button type="submit">Search</button>
+    </form>
+    <div class="CityText">
+        <h1 id= "CityDisplay"></h1>
+    </div>
+    <div class="highf">
+        <table>
+            <tr>
+              <th>HIGH</th>
+            </tr>
+            <tr>
+              <td id= "high"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="low">
+        <table>
+            <tr>
+              <th>LOW</th>
+            </tr>
+            <tr>
+              <td id= "low"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="forecast">
+        <table>
+            <tr>
+              <th>FORECAST</th>
+            </tr>
+            <tr>
+              <td id= "forecast"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="humidity">
+        <table>
+            <tr>
+              <th>HUMIDITY</th>
+            </tr>
+            <tr>
+              <td id= "humidity"></td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>
